@@ -1,0 +1,217 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jie Bu - PhD Students in Computer Science</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/5.15.4/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="pics/icon.png" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <!-- <canvas id=c></canvas><script src="js/index.js"></script> -->
+      <div id="profile_img" style="background: url(pics/profile.jpg) center;"></div>
+      <div id="username"><span style="display:block;">Jie Bu</span><a href="mailto: jayroxis@vt.edu"><i class="fas fa-envelope"></i>&nbsp&nbspjayroxis@vt.edu</a></div>
+      <div id="userbio" style="display: block;">PhD Student in Computer Science, Machine Learning Researcher</div>
+      <div id="about">
+                <!-- <span ><i class="fas fa-users"></i> &nbsp; Sanghani Center, VT</span> -->
+                <!-- <span ><i class="fas fa-envelope"></i> &nbsp; null</span> -->
+                <!-- <span ><i class="fas fa-link"></i> &nbsp; <a href=""></a></span> -->
+                <!-- <span ><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Blacksburg, VA, United States</span>
+                <span ><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Advised by <a href="https://people.cs.vt.edu/karpatne/">Dr. Anuj Karpatne</a></span> -->
+                <div class="socials">
+                <!-- <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span> -->
+                <!-- <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span> -->
+                <span><a href="https://www.linkedin.com/in/jie-bu-420692194/" target="_blank" class="socials"><i style="font-size: 22px;" class="fab fa-linkedin-in"></i></a></span>
+                <span><a href="https://github.com/jayroxis/" target="_blank" class="socials"><i style="font-size: 22px;" class="fab fa-github"></i></a></span>
+                <span><a href="https://scholar.google.com/citations?user=ogW9GEoAAAAJ" target="_blank" class="socials"><i style="font-size: 22px;" class="fas fa-graduation-cap"></i></a></span>
+                <span><a href="pdfs/jie_bu_cv.pdf" target="_blank" class="socials"><i style="font-size: 22px;" class="fas fa-file"></i></a></span>
+                <!-- <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span> -->
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1 style="font-family: sans-serif;">About Me</h1>
+        <div id="about_me">
+          <!-- <p>I set out on my PhD journey from <b>2018</b> at Virginia Tech with a passion for computer science, after pondering for an important decision to change my major from EE to CS. 
+            Coding in my free time brings back the childhood memory of playing with Basic and Pascal on an old computer, but algorithms like genetic algorithms .</p>
+          <p>"You can really come up with good ideas. You should consider doing a PhD." said my undergraduate advisor. Maybe he is right. Curiosity fuels me and drives me through past years as a PhD student. I do enjoy doing research. </p>
+          <p>ML/DL is definitely the flavor of the month, not only in CS, but also in many other fields. Many recognize and praise its remarkable strengths, but less see how often it fails. 
+            Researching on Deep Learning is like walking on a thin ice. I am lucky to witness the [] of deep learning and be part of the expedition to explore its future.
+          </p> -->
+          <p>I set out on my PhD journey from 2018 at Virginia Tech under the advise of <a href="https://people.cs.vt.edu/karpatne/">Dr. Anuj Karpatne</a>, 
+            right after my graduation from Harbin Institute of Technology with a B.S. in communication engineering.
+          </p>
+        </div>
+        <h1 style="font-family: sans-serif;">Featured Projects</h1>
+        <div class="projects" id="work_section">
+                        <a href="https://github.com/jayroxis/dam-pytorch" target="_blank">
+                        <section>
+                            <div class="section_title"><span style="background-color: rgb(92, 184, 92);" class="publication">NeurIPS 2021</span> DiscriminAtive Masking</div>
+                            <div class="author"><span><b>Jie Bu</b>, Arka Daw, M. Maruf, Anuj Karpatne</span></div>
+                            <div class="about_section">
+                            <span style="display:block;">Single-shot structured network pruning without the need for finetuning.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span ><i class="fas fa-code"></i>&nbsp; Python</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        
+                        <a href="https://github.com/jayroxis/qres" target="_blank">
+                          <section>
+                              <div class="section_title"><span style="background-color: rgb(92, 184, 92);" class="publication">SDM 2021</span> Quadratic Residual Networks</div>
+                              <div class="author"><span><b>Jie Bu</b>, Anuj Karpatne</span></div>
+                              <div class="about_section">
+                              <span style="display:block;">Higher Expressibaility in Nerual Networks with Quadratic Neurons.</span>
+                              </div>
+                              <div class="bottom_section">
+                                  <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
+                                  <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                  <span><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+                              </div>
+                          </section>
+                        </a>
+                        
+                        <a href="https://github.com/nmuralid1/PhyNet" target="_blank">
+                          <section>
+                              <div class="section_title"><span style="background-color: rgb(92, 184, 92);" class="publication">SDM 2020</span> Particle Drag in Multi-phase Flow</div>
+                              <div class="author"><span>N. Muralidhar, <b>Jie Bu</b>, Ze Cao, Long He, N. Ramakrishnan, D. Tafti, A. Karpatne</span></div>
+                              <div class="about_section">
+                              <span style="display:block;">Physics Guided Neural Networks for Particle Drag Force Prediction in Assembly.</span>
+                              </div>
+                              <div class="bottom_section">
+                                  <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
+                                  <span><i class="fas fa-star"></i>&nbsp; 5</span>
+                                  <span><i class="fas fa-code-branch"></i>&nbsp; 3</span>
+                              </div>
+                          </section>
+                        </a>
+
+                        <a href="https://github.com/jayroxis/Link-Injection" target="_blank">
+                        <section>
+                            <div class="section_title"><span style="background-color: rgb(240, 173, 78);" class="publication">Preprint</span> Link Injection</div>
+                            <div class="author"><span><b>Jie Bu</b>, M. Maruf, Arka Daw</span></div>
+                            <div class="about_section">
+                            <span style="display:block;">Learning implicit connections (injected links) outside the training graph.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+
+                        <a href="https://github.com/jayroxis/Cophy-PGNN" target="_blank">
+                          <section>
+                              <div class="section_title"><span style="background-color: rgb(240, 173, 78);" class="publication">Preprint</span> Cophy-PGNN</div>
+                              <div class="author"><span>M. Elhamod, <b>Jie Bu</b>, C. Singh, M. Redell, A. Ghosh, V. Podolskiy, W. Lee, A. Karpatne</span></div>
+                              <div class="about_section">
+                              <span >Fast eigen-decomposition with neural networks.</span>
+                              </div>
+                              <div class="bottom_section">
+                                  <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Jupyter Notebook</span>
+                                  <span><i class="fas fa-star"></i>&nbsp; 7</span>
+                                  <span><i class="fas fa-code-branch"></i>&nbsp; 4</span>
+                              </div>
+                          </section>
+                        </a>
+  </div>
+  <h1 style="font-family: sans-serif;">Media</h1>
+  <iframe width="640" height="360"
+  src="https://www.youtube.com/embed/_eqgRA_Ws5g">
+  </iframe>
+  </div>
+      <div id="forks" style="display: none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section" style="display: none;">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+    </div>
+    <!-- <div style="height: 10px;"></div> -->
+    <div style="display: flex;">
+      <div style="display:inline-block; width:12vw; padding: 4vh 3vw; height: 100px;"></div>
+      <div id="footer" style="background-color:bisque; display: inline-block;">
+        <img class="footer_img" src="pics/vt_logo.svg" >
+        <img class="footer_img" src="https://sanghani.cs.vt.edu/wp-content/themes/FoundationPress/assets/images/logos/sanghani_footer.svg" >
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>
