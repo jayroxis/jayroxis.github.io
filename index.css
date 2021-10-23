@@ -73,7 +73,8 @@ body {
 }
 
 #display h1 {
-  font-size: 50px;
+/*   font-size: 50px; */
+  font-size: 5ex;
   color: var(--text-color);
   font-weight: bold;
   font-family: "Questrial", sans-serif;
