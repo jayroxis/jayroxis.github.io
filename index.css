@@ -354,7 +354,7 @@ body {
 
 .about_section {
   font-size: 18px;
-/*   font-family: "Questrial", sans-serif; */
+  font-family: "Questrial", sans-serif;
   margin: 2vh 0px;
   font-weight: bold;
   word-wrap: break-word;
