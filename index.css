@@ -234,10 +234,10 @@ body {
 
 
 #profile_img {
-  width: 290px;
-  height: 480px;
-  min-width: 290px;
-  min-height: 480px;
+/*   width: 290px; */
+  height: 400px;
+/*   min-width: 290px; */
+  min-height: 400px;
   max-width: 290px;
   max-height: 480px;
   border-radius: 10px;
