@@ -10,7 +10,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   align-items: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "arial", "Poppins", sans-serif;
 }
 
 #loading {
